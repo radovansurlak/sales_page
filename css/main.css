@@ -1,0 +1,78 @@
+* {
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  color: black; }
+
+#wrap:hover a:not(:hover) {
+  color: rgba(0, 0, 0, 0.5); }
+
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+#logo {
+  position: absolute;
+  display: inline-block;
+  height: 4vw; }
+
+#menu {
+  position: relative;
+  left: 60vw;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.15) 50%, transparent 100%) 5%;
+  border-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.15) 50%, transparent 100%) 5%; }
+  #menu > #wrap > * {
+    display: inline-block;
+    margin: 0.7vw 0; }
+  #menu input, #menu a {
+    padding: 1vw;
+    text-decoration: none;
+    color: unset; }
+
+#buy-now-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1vw;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  transition: all 200ms; }
+  #buy-now-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.3); }
+
+#section-intro {
+  background-image: url("../media/bg2.jpeg");
+  background-size: cover;
+  width: 100vw; }
+
+main {
+  height: 50vw;
+  text-align: center;
+  position: relative;
+  top: 20vh;
+  width: 70%;
+  margin: 0 auto; }
+  main img {
+    display: block;
+    margin: 0 auto;
+    width: 20vw;
+    border-radius: 10px; }
+  main h1 {
+    font-weight: 700; }
+  main h1, main h2 {
+    padding-bottom: 1vw; }
+
+/*# sourceMappingURL=main.css.map */
