@@ -44,15 +44,17 @@
 
 
     <main>
-<!--
-      <h1>Radovan Surlak</h1>
-      <h2>tricking, photography, psychology</h2>
-      <img src="media/photo.jpg" alt="Portrait of Radovan Surlak">
+
+
+      <h1>landing page<br>
+      that sells</h1>
+      <h2>make your website convert in style</h2>
+      <input id="cta-button" type="button" value="Order Now - $2997"></input>
 
         <article>
           <p>
           </p>
-        </article> -->
+        </article>
 
     </main>
   </section>

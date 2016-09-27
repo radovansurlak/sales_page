@@ -9,7 +9,6 @@
   color: rgba(0, 0, 0, 0.5); }
 
 nav {
-  display: flex;
   position: fixed;
   width: 100%;
   margin: 0 auto;
@@ -21,8 +20,10 @@ nav {
   height: 4vw; }
 
 #menu {
-  position: relative;
-  left: 60vw;
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   border: 0;
@@ -36,7 +37,8 @@ nav {
   #menu input, #menu a {
     padding: 1vw;
     text-decoration: none;
-    color: unset; }
+    color: unset;
+    transition: all 200ms; }
 
 #buy-now-button {
   -moz-border-radius: 3px;
@@ -47,11 +49,34 @@ nav {
   text-decoration: none;
   cursor: pointer;
   font-size: 1vw;
-  border: 1px solid rgba(0, 0, 0, 0.7);
-  transition: all 200ms; }
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.7); }
   #buy-now-button:hover {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.3); }
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px 5px white; }
+  #buy-now-button:active {
+    background-color: rgba(0, 0, 0, 0.5); }
+
+#cta-button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #FF5F0D;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 1.3vw;
+  outline: none;
+  color: white;
+  padding: 1.3vw;
+  border: none;
+  transition: background-color 100ms; }
+  #cta-button:hover {
+    background-color: #FF5F0D; }
+  #cta-button:active {
+    background-color: rgba(0, 0, 0, 0.5); }
 
 #section-intro {
   background-image: url("../media/bg2.jpeg");
@@ -60,10 +85,11 @@ nav {
 
 main {
   height: 50vw;
-  text-align: center;
+  text-align: left;
   position: relative;
-  top: 20vh;
-  width: 70%;
+  top: 30vh;
+  left: 10vw;
+  width: 30vw;
   margin: 0 auto; }
   main img {
     display: block;
@@ -71,8 +97,10 @@ main {
     width: 20vw;
     border-radius: 10px; }
   main h1 {
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 3rem; }
   main h1, main h2 {
-    padding-bottom: 1vw; }
+    padding-bottom: 1vw;
+    text-transform: capitalize; }
 
 /*# sourceMappingURL=main.css.map */
