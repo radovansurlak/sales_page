@@ -12,7 +12,12 @@ nav {
   position: fixed;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.7); }
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.5) 50%, transparent 100%) 5%;
+  border-image: -webkit-linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent 100%) 5%; }
 
 #logo {
   position: absolute;
@@ -25,19 +30,13 @@ nav {
   width: 80%;
   justify-content: flex-end;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  border: 0;
-  border-style: solid;
-  border-bottom-width: 1px;
-  border-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.15) 50%, transparent 100%) 5%;
-  border-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.15) 50%, transparent 100%) 5%; }
+  box-sizing: border-box; }
   #menu > #wrap > * {
     display: inline-block;
     margin: 0.7vw 0; }
   #menu input, #menu a {
     padding: 1vw;
     text-decoration: none;
-    color: unset;
     transition: all 200ms; }
 
 #buy-now-button {
@@ -74,9 +73,9 @@ nav {
   border: none;
   transition: background-color 100ms; }
   #cta-button:hover {
-    background-color: #FF5F0D; }
+    background-color: #FF530D; }
   #cta-button:active {
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: #FF7C0D; }
 
 #section-intro {
   background-image: url("../media/bg2.jpeg");
