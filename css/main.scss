@@ -19,7 +19,7 @@ nav {
   position: fixed;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0;
   border-style: solid;
   border-bottom-width: 1px;
@@ -112,7 +112,7 @@ main {
   height: 50vw;
   text-align: left;
   position: relative;
-  top: 30vh;
+  top: 20vw;
   left: 10vw;
   width: 30vw;
   margin: 0 auto;
@@ -124,8 +124,10 @@ main {
   }
   h1 {
     font-weight: 700;
-    font-size: 3rem;
-
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 2vw;
   }
   h1, h2 {
     padding-bottom: 1vw;
